@@ -114,7 +114,7 @@ nav li a {
 
 /* Main part */
 
-main {
+main  {
 
     max-width: 1440px;
     margin: 70px auto;
@@ -289,6 +289,26 @@ main {
     width: 165px;
 }
 
+/* footer */
+footer {
+
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 100px 100px;
+}
+footer p {
+
+    color: var(--dark-02, #424242);
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+    
+    
 
 
 
@@ -311,7 +331,7 @@ main {
 
         grid-template-columns: 1fr;
     }
-    .teams-content, .facts-card-container, .sponsors-img-container {
+    .teams-content, .facts-card-container, .sponsors-img-container, footer {
 
         padding-left: 20px;
         padding-right: 20px;
@@ -326,15 +346,17 @@ main {
 
     .ten-y-b {
 
-       position: static;
+       position: relative;
        max-width: 300px;
+       margin-bottom: 200px;
     }
 
     .facts-card-container {
 
         gap: 20px;
+        
     }
-
+    
    
 }
 
