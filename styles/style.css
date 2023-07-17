@@ -8,3 +8,97 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
 }
+
+
+/* Header Style */
+
+header {
+
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+
+nav {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+
+    color: var(--dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: normal;
+}
+
+nav > ul {
+
+    display: flex;
+    /* text-decoration: none; */
+    
+}
+nav li {
+
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500;
+
+    
+}
+
+nav li a {
+
+    text-decoration: none;
+    color: var(--dark-02, #424242);
+
+}
+
+/* Banner part */
+
+.banner-content {
+
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+.banner-title {
+
+    color: #131313;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-des {
+
+    color:  #727272;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn-primary {
+
+    border-radius: .5rem;
+    background: #FF900E;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 600;
+    padding: 22px;
+    cursor: pointer;
+     
+}
+
